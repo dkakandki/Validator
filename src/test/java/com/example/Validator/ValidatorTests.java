@@ -27,6 +27,7 @@ class ValidatorTests {
         Assertions.assertFalse(Validator.isPhoneNumberValid("01a234")); // phone number contains non numerical value
         Assertions.assertFalse(Validator.isPhoneNumberValid("")); // empty string
     }
+    //testing github actions
 
     @Test
     void EmailValidation() {
